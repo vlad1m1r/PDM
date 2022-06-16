@@ -46,6 +46,7 @@
      <Compile Include="Assets\RestClient\Packages\RSG.Promise\Exceptions\PromiseException.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\RestClientPromise.cs" />
+     <Compile Include="Assets\Scripts\DestroyAfter.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Post.cs" />
      <Compile Include="Assets\RestClient\Packages\RSG.Promise\PromiseHelpers.cs" />
      <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\RequestException.cs" />
@@ -65,7 +66,7 @@
      <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\HttpBase.cs" />
      <Compile Include="Assets\RestClient\Packages\Proyecto26.RestClient\Helpers\Extensions.cs" />
      <Compile Include="Assets\RestClient\DemoScene\Scripts\Model\Photo.cs" />
-     <Compile Include="Assets\Scripts\DestroyAfter.cs" />
+     <Compile Include="Assets\Scripts\Spike.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

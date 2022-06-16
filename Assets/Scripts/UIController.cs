@@ -95,7 +95,7 @@ public class UIController : Singleton<UIController>
     }
 
     public void AddActor(){
-        GameObject actor=Instantiate(Resources.Load("Actor")) as GameObject;
+        GameObject actor=Instantiate(Resources.Load("Slime")) as GameObject;
         actor.gameObject.name="Actor"+actor.GetInstanceID();
         InputManager.Instance.actor=actor;
     }
@@ -121,7 +121,7 @@ public class UIController : Singleton<UIController>
             }else{
                 GameObject.Find("Log").GetComponent<TextMeshProUGUI>().text="";
             }
-            yield return new WaitForSeconds(.3f);
+            yield return new WaitForSeconds(1f);
         }
     }
 
